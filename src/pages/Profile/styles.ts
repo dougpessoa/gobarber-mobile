@@ -28,3 +28,21 @@ export const UserAvatar = styled.Image`
 export const BackButton = styled.TouchableOpacity`
   margin-top: 32px;
 `;
+
+export const ButtonExit = styled.TouchableOpacity`
+  width: 100%;
+  height: 60px;
+  background: #a83434;
+  border-radius: 10px;
+  margin-top: 8px;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+`;
+
+export const ButtonExitText = styled.Text`
+  font-family: 'RobotoSlab-Medium';
+  color: #fff;
+  font-size: 18px;
+`;
